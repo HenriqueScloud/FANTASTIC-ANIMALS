@@ -308,9 +308,41 @@ a{
     0%{
         opacity:0;
         transform: translate3d(0,-30px,0);
+        max-height:0 ;
+
     }
     100% {
         opacity:1;
         transform: translate3d(0,0,0);
+        max-height: 500px;
     }
+}
+
+
+
+
+
+
+.js .js-accordion dt::after{
+    content: '⤵';
+    margin-left: 15px;
+}
+.js .js-accordion dt.ativo::after{
+    content: '⤴';
+    margin-left: 15px;
+}
+
+
+
+
+.js .js-accordion dd{
+    display: none;
+}
+
+
+.js .js-accordion dd.ativoFaq{
+    display: block;
+    animation: show .5s forwards;
+    font-size: 1.187em;
+
 }
