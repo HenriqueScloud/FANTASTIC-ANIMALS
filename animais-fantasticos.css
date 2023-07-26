@@ -276,8 +276,13 @@ img{
 a{
     padding: 15px !important;
     margin: 5px !important;
+
 }
 
+
+.animais-lista LI{
+    cursor: pointer;
+}
 
 
 
@@ -290,10 +295,10 @@ a{
 
 
 
-.js-tabContent section{
+.js .js-tabContent section{
     display: none;
 }
-.js-tabContent section.ativo{
+.js .js-tabContent section.ativo{
     display: block !important;
     animation: show .5s forwards;
 }
