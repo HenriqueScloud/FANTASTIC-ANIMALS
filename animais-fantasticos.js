@@ -258,9 +258,22 @@ function scrollToSection(event){
     event.preventDefault()
     const href = event.currentTarget.getAttribute('href')
     const section = document.querySelector(href)
-    console.log(section)
+    // console.log(section)
 
+
+
+    // criando um scroll suave com window.scrollto(option)
+    const topo = section.offsetTop
+    console.log(topo)
+    window.scrollTo({
+        behavior:'smooth'
+    })
+
+
+    //criando um scroll suave com .scrollIntoView({})
 }
+
+
 
 
 linksInternos.forEach((link) => {
