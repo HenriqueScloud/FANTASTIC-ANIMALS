@@ -245,37 +245,112 @@ navegacaoPorLista();
 
 // ------------------------------------------------------------
 
-//  SCROLL SUAVE 
+// //  SCROLL SUAVE 
 
 
-const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]')
-console.log(linksInternos)
-
-
-
-
-function scrollToSection(event){
-    event.preventDefault()
-    const href = event.currentTarget.getAttribute('href')
-    const section = document.querySelector(href)
-    // console.log(section)
-
-
-
-    // criando um scroll suave com window.scrollto(option)
-    const topo = section.offsetTop
-    console.log(topo)
-    window.scrollTo({
-        behavior:'smooth'
-    })
-
-
-    //criando um scroll suave com .scrollIntoView({})
-}
+// const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]')
+// console.log(linksInternos)
 
 
 
 
-linksInternos.forEach((link) => {
-    link.addEventListener('click', scrollToSection)
-})
+// function scrollToSection(event){
+//     event.preventDefault()
+//     const href = event.currentTarget.getAttribute('href');
+//     const section = document.querySelector(href)
+//     // console.log(section)
+
+
+
+//     // criando um scroll suave com window.scrollto(option)
+    
+//     const topo = section.offsetTop;
+
+//     // window.scrollTo({
+//     //     top:topo,
+//     //     behavior:'smooth'
+//     // })
+
+
+//     //criando um scroll suave com .scrollIntoView({})
+
+
+
+
+
+//     window.scrollIntoView({
+//         behavior:"smooth"
+//     })
+// }
+// scrollToSection()
+
+
+
+// linksInternos.forEach((link) => {
+//     link.addEventListener('click', scrollToSection)
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------------------------------
+
+// //  SCROLL SUAVE do AIZZY
+
+// Função para o scroll suave
+function scrollToSection(target) {
+    const section = document.querySelector(target);
+    const offset = 80; // opcional: ajuste o deslocamento do scroll (em pixels) se necessário
+    
+    if (section) {
+      const topPosition = section.offsetTop - offset;
+      
+      window.scrollTo({
+        top: topPosition,
+        behavior: 'smooth'
+      });
+    }
+  }
+  
+  // Função para adicionar o comportamento do scroll suave aos links internos
+
+
+  function addSmoothScrolling() {
+    const linksInternos = document.querySelectorAll('a[href^="#"]');
+    
+    linksInternos.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const href = this.getAttribute('href');
+        scrollToSection(href);
+      });
+    });
+  }
+  
+  // Inicialização do scroll suave ao carregar a página
+  window.addEventListener('load', addSmoothScrolling);
+  
