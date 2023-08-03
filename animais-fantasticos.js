@@ -187,7 +187,7 @@
 
 
 
-
+//  NAVEGAÇÃO POR TAB
 
 function navegacaoPorTab(){
     const tabMenu = document.querySelectorAll('.js-tabMenu li')
@@ -219,7 +219,7 @@ function navegacaoPorTab(){
 navegacaoPorTab(); //ativação da função de navegação por tab 
 
 
-// ------------------------------------------------------
+
 
 
 
@@ -276,7 +276,7 @@ function scrollToSection(event){
 
 
   window.scrollTo({
-    top: topo-70, //definindo onde o scroll vai parar 
+    top: topo-130, //definindo onde o scroll vai parar 
     behavior:'smooth', //definindo a velociodade do scroll
   })
 
@@ -292,3 +292,36 @@ linksInternos.forEach((link)=>{
 
 }
 initScrollSuave()
+
+
+
+// ANIMAÇÃO DE SCROLL NOS ELEMENTOS 
+function initAnimacaoScroll(){
+
+      
+    const sections = document.querySelectorAll('.js-scroll')// pegando todos os elementos que vão ser animados pelo scroll
+
+    if (sections.length){
+
+      const windowMetade = window.innerHeight * 0.8 // pegando 80% da tela do usuário 
+
+      function animaScroll() { // criando a função de animação
+
+        sections.forEach((section)=>{
+          const sectionTop = section.getBoundingClientRect().top-windowMetade // pegando o topo do elemento por essa nova funcionalidade menos a porcentagem da tela do usuário.
+
+          if (sectionTop < 0){
+            section.classList.add('ativo') // quando passar, ativar a animação.
+          }else{
+            section.classList.remove('ativo') // quando voltar, desativar a animação.
+          }
+          
+        })
+
+      }
+      animaScroll() // EVITAR BUGS DE INICIO
+      window.addEventListener('scroll', animaScroll) // ADD O EVENTO AO WINDOW 
+    }
+
+}
+initAnimacaoScroll()
