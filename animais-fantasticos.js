@@ -221,27 +221,27 @@ navegacaoPorTab(); //ativação da função de navegação por tab
 
 
 
+//  NAVEGAÇÃO POR LISTA
 
 
 function navegacaoPorLista(){
-    const accordionList = document.querySelectorAll('.js-accordion dt')
+    const accordionList = document.querySelectorAll('.js-accordion dt')//Pegando todos os DT com as perguntas 
 
 
-    function activeAccordion(event){
-        this.classList.toggle('ativo')
-        this.nextElementSibling.classList.toggle('ativoFaq')
+    function activeAccordion(event){ // criando a função para add/remover quando for clicado no item.
+
+        this.nextElementSibling.classList.toggle('ativoFaq') // add/remove class do elemento com clicarem nele.
     }
 
 
     accordionList.forEach((item) => {
         item.addEventListener('click', activeAccordion);
         
-    })
+    }) // add a função em todos os elmentos necessários 
 
 
 }
-
-navegacaoPorLista();
+navegacaoPorLista(); // ativando a função
 
 
 
@@ -303,7 +303,7 @@ function initAnimacaoScroll(){
 
     if (sections.length){
 
-      const windowMetade = window.innerHeight * 0.8 // pegando 80% da tela do usuário 
+      const windowMetade = window.innerHeight * 0.7 // pegando 80% da tela do usuário 
 
       function animaScroll() { // criando a função de animação
 
