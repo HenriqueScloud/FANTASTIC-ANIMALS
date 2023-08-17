@@ -303,7 +303,7 @@ function initAnimacaoScroll(){
 
     if (sections.length){
 
-      const windowMetade = window.innerHeight * 0.7 // pegando 80% da tela do usuário 
+      const windowMetade = window.innerHeight * 0.7 // pegando 70% da tela do usuário 
 
       function animaScroll() { // criando a função de animação
 
