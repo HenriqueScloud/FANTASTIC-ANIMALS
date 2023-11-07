@@ -37,9 +37,9 @@
 
 <h1>Contato</h1>
 
-<p align='center'>Se você tiver alguma dúvida, sugestão ou apenas quiser trocar uma ideia, sinta-se à vontade para entrar em contato comigo através do meu e-mail: [henriquesilvamendes076@gmail.com](henriquesilvamendes076@gmail.com).</p>
+Se você tiver alguma dúvida, sugestão ou apenas quiser trocar uma ideia, sinta-se à vontade para entrar em contato comigo através do meu e-mail: [henriquesilvamendes076@gmail.com](henriquesilvamendes076@gmail.com).
 
-<p align='center'>Espero que você goste do projeto e que seja útil para o desenvolvimento de novas habilidades em programação!</p>
+Espero que você goste do projeto e que seja útil para o desenvolvimento de novas habilidades em programação!
 
 Divirta-se explorando os **Animais Fantásticos**! 🦁🐼🐍
 
