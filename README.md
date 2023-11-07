@@ -15,36 +15,33 @@
 
 <p align='center'>História dos animais Fantásticos 🦁<p><br>
 
-# README - Projeto Animais Fantásticos
+#README - Projeto Animais Fantásticos
 
 O projeto **Animais Fantásticos** é um site desenvolvido durante o curso da Origamid com o objetivo de aprimorar habilidades em HTML, CSS e JavaScript. O site é responsivo, adaptando-se a todos os dispositivos, e apresenta interatividades implementadas com o uso de JavaScript.
 
-## Características do Projeto
+<h1>Características do Projeto</h1>
 
 - Desenvolvido em HTML, CSS e JavaScript.
 - Layout responsivo que se adapta a todos os dispositivos.
 - Contém informações sobre diferentes tipos de animais e suas características.
 - Apresenta interatividades em JavaScript para proporcionar uma experiência mais dinâmica e imersiva ao usuário.
 
-## Sobre o Curso
+<h1>Sobre o Curso</h1>
 
-O projeto foi desenvolvido durante o curso da Origamid, onde foram aplicados os conceitos essenciais de JavaScript aprendidos ao longo do curso. Através desse projeto, pude colocar em prática todo o conhecimento adquirido, assim como desenvolver minhas habilidades de programação.
+<P align='center'>O projeto foi desenvolvido durante o curso da Origamid, onde foram aplicados os conceitos essenciais de JavaScript aprendidos ao longo do curso. Através desse projeto, pude colocar em prática todo o conhecimento adquirido, assim como desenvolver minhas habilidades de programação.</P>
 
-## Visualização do Projeto
 
-Para visualizar o projeto completo, basta acessar o link [Animais Fantásticos](https://seu-link-github.com/animais-fantasticos).
+ <h1>Contribuição</h1>
 
-## Contribuição
+<p align='center'>Contribuições e sugestões são bem-vindas! Se você deseja contribuir para o aprimoramento deste projeto, sinta-se à vontade para abrir uma **issue** descrevendo sua proposta de melhoria ou enviar um **pull request** com suas alterações.</p>
 
-Contribuições e sugestões são bem-vindas! Se você deseja contribuir para o aprimoramento deste projeto, sinta-se à vontade para abrir uma **issue** descrevendo sua proposta de melhoria ou enviar um **pull request** com suas alterações.
+<h1>Contato</h1>
 
-## Contato
+<p align='center'>Se você tiver alguma dúvida, sugestão ou apenas quiser trocar uma ideia, sinta-se à vontade para entrar em contato comigo através do meu e-mail: [henriquesilvamendes076@gmail.com](henriquesilvamendes076@gmail.com).</p>
 
-Se você tiver alguma dúvida, sugestão ou apenas quiser trocar uma ideia, sinta-se à vontade para entrar em contato comigo através do meu e-mail: [seu-email@gmail.com](mailto:seu-email@gmail.com).
+<p align='center'>Espero que você goste do projeto e que seja útil para o desenvolvimento de novas habilidades em programação!</p>
 
-Espero que você goste do projeto e que seja útil para o desenvolvimento de novas habilidades em programação!
-
-Divirta-se explorando os **Animais Fantásticos**! 🦁🐼🐍
+<p align='center'>Divirta-se explorando os **Animais Fantásticos**! 🦁🐼🐍</p>
 
 <h2>
     💻✍️ Tecnologias:
