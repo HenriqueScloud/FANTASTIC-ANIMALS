@@ -10,12 +10,12 @@
 
 <p align='center'><img src='Captura de tela 2023-11-07 094029.png'></p>
 
+<p align='center'>História dos animais Fantásticos 🦁<p><br>
 
 <p align='center'><button ><a href='https://henriquescloud.github.io/FANTASTIC-ANIMALS/animais-fantasticos.html' > ACESSAR </a></button></p><br><h1></h1>
 
-<p align='center'>História dos animais Fantásticos 🦁<p><br>
 
-#README - Projeto Animais Fantásticos
+ <H1  align='center'>Projeto Animais Fantásticos</H1>
 
 O projeto **Animais Fantásticos** é um site desenvolvido durante o curso da Origamid com o objetivo de aprimorar habilidades em HTML, CSS e JavaScript. O site é responsivo, adaptando-se a todos os dispositivos, e apresenta interatividades implementadas com o uso de JavaScript.
 
