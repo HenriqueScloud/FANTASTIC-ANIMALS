@@ -15,25 +15,36 @@
 
 <p align='center'>História dos animais Fantásticos 🦁<p><br>
 
-<p align='center'>Seja bem-vindo(a) ao projeto de frontend desenvolvido para a Brafé, uma cafeteria que encanta seus clientes com uma experiência de café única. Neste projeto, criei um site direto, resumido, criativo e profissional, solucionando problemas reais e agregando valor significativo para a cafeteria.</p><br><h1></h1>
+# README - Projeto Animais Fantásticos
 
+O projeto **Animais Fantásticos** é um site desenvolvido durante o curso da Origamid com o objetivo de aprimorar habilidades em HTML, CSS e JavaScript. O site é responsivo, adaptando-se a todos os dispositivos, e apresenta interatividades implementadas com o uso de JavaScript.
 
-<p align='center'>✨ Soluções diretas e resultados tangíveis:☕<p><br>
+## Características do Projeto
 
-<p>
-    ✅ Atração e envolvimento dos clientes: Através do design criativo e cativante, o site da Brafé conquista o interesse dos visitantes logo de cara. Com uma experiência visualmente encantadora, conseguimos despertar a curiosidade e o desejo de conhecer pessoalmente a cafeteria.</p><br>
+- Desenvolvido em HTML, CSS e JavaScript.
+- Layout responsivo que se adapta a todos os dispositivos.
+- Contém informações sobre diferentes tipos de animais e suas características.
+- Apresenta interatividades em JavaScript para proporcionar uma experiência mais dinâmica e imersiva ao usuário.
 
-<p>
-    ✅ Personalização do cardápio: Com o site da Brafé, os clientes podem explorar e personalizar seu cardápio de café de acordo com suas preferências. Ao oferecer opções de grãos, intensidade, leite e extras, proporcionamos aos clientes a oportunidade de criar uma bebida personalizada e memorável.</p><br>
-<p>
-     ✅ Facilidade nos pedidos: Implementamos um sistema de pedidos online intuitivo e  eficiente que permite aos clientes fazer pedidos antecipados e evitar filas. Com essa facilidade, a Brafé agrega comodidade aos seus clientes, aumentando a satisfação e fidelidade.
-</p>
-<p>
-    ✅ Promoção de eventos e ofertas: O site permite à Brafé informar sobre eventos exclusivos e ofertas especiais, fortalecendo o envolvimento e o relacionamento com os clientes. Essa comunicação eficaz cria um senso de comunidade e incentiva o retorno dos clientes para experimentar novidades. </p> 
+## Sobre o Curso
 
-<br>
+O projeto foi desenvolvido durante o curso da Origamid, onde foram aplicados os conceitos essenciais de JavaScript aprendidos ao longo do curso. Através desse projeto, pude colocar em prática todo o conhecimento adquirido, assim como desenvolver minhas habilidades de programação.
 
-<p>🚀 O projeto de frontend da Brafé resolveu desafios chave para a empresa do cliente, trazendo soluções como atração de clientes, personalização do cardápio, agilidade nos pedidos e promoção de eventos. Isso resultou em um aumento do interesse dos clientes, satisfação e fidelidade, proporcionando um impacto positivo no crescimento e sucesso da Brafé.</p><br>
+## Visualização do Projeto
+
+Para visualizar o projeto completo, basta acessar o link [Animais Fantásticos](https://seu-link-github.com/animais-fantasticos).
+
+## Contribuição
+
+Contribuições e sugestões são bem-vindas! Se você deseja contribuir para o aprimoramento deste projeto, sinta-se à vontade para abrir uma **issue** descrevendo sua proposta de melhoria ou enviar um **pull request** com suas alterações.
+
+## Contato
+
+Se você tiver alguma dúvida, sugestão ou apenas quiser trocar uma ideia, sinta-se à vontade para entrar em contato comigo através do meu e-mail: [seu-email@gmail.com](mailto:seu-email@gmail.com).
+
+Espero que você goste do projeto e que seja útil para o desenvolvimento de novas habilidades em programação!
+
+Divirta-se explorando os **Animais Fantásticos**! 🦁🐼🐍
 
 <h2>
     💻✍️ Tecnologias:
@@ -42,11 +53,3 @@
 
 [![Minhas Habilidades](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
 
-
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> 65daeeed79e40377c9dcd033d6c4a5bf7efa15d8
