@@ -17,7 +17,7 @@
 
  <H1  align='center'>Projeto Animais Fantásticos</H1>
 
-O projeto **Animais Fantásticos** é um site desenvolvido durante o curso da Origamid com o objetivo de aprimorar habilidades em HTML, CSS e JavaScript. O site é responsivo, adaptando-se a todos os dispositivos, e apresenta interatividades implementadas com o uso de JavaScript.
+<P align='center'>O projeto **Animais Fantásticos** é um site desenvolvido durante o curso da Origamid com o objetivo de aprimorar habilidades em HTML, CSS e JavaScript. O site é responsivo, adaptando-se a todos os dispositivos, e apresenta interatividades implementadas com o uso de JavaScript.</P>
 
 <h1>Características do Projeto</h1>
 
@@ -41,7 +41,7 @@ O projeto **Animais Fantásticos** é um site desenvolvido durante o curso da Or
 
 <p align='center'>Espero que você goste do projeto e que seja útil para o desenvolvimento de novas habilidades em programação!</p>
 
-<p align='center'>Divirta-se explorando os **Animais Fantásticos**! 🦁🐼🐍</p>
+Divirta-se explorando os **Animais Fantásticos**! 🦁🐼🐍
 
 <h2>
     💻✍️ Tecnologias:
