@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 
-=======
-#  FANTASTIC-ANIMALS
->>>>>>> 65daeeed79e40377c9dcd033d6c4a5bf7efa15d8
+
+
  
 <h1 align='center'>
     <P font-size='12px'> Animais Fantásticos 🦁 </P>
@@ -15,7 +13,7 @@
 
 <p align='center'><button ><a href='https://henriquescloud.github.io/FANTASTIC-ANIMALS/animais-fantasticos.html' > ACESSAR </a></button></p><br><h1></h1>
 
-<p align='center'>🌟 Brafé: O Sabor da Inovação em um Site Encantador ☕<p><br>
+<p align='center'>História dos animais Fantásticos 🦁<p><br>
 
 <p align='center'>Seja bem-vindo(a) ao projeto de frontend desenvolvido para a Brafé, uma cafeteria que encanta seus clientes com uma experiência de café única. Neste projeto, criei um site direto, resumido, criativo e profissional, solucionando problemas reais e agregando valor significativo para a cafeteria.</p><br><h1></h1>
 
