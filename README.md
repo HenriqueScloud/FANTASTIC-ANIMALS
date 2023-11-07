@@ -10,7 +10,7 @@
 
 <p align='center'><img src='Captura de tela 2023-11-07 094029.png'></p>
 
-<p align='center'>História dos animais Fantásticos 🦁<p><br>
+<p align='center'>História dos animais Fantásticos 🦁<p>
 
 <p align='center'><button ><a href='https://henriquescloud.github.io/FANTASTIC-ANIMALS/animais-fantasticos.html' > ACESSAR </a></button></p><br><h1></h1>
 
