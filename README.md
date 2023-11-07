@@ -36,7 +36,7 @@ O projeto foi desenvolvido durante o curso da Origamid, onde foram aplicados os 
 Contribuições e sugestões são bem-vindas! Se você deseja contribuir para o aprimoramento deste projeto, sinta-se à vontade para abrir uma **issue** descrevendo sua proposta de melhoria ou enviar um **pull request** com suas alterações.
 
 ## Contato
-Se você tiver alguma dúvida, sugestão ou apenas quiser trocar uma ideia, sinta-se à vontade para entrar em contato comigo através do meu e-mail: [henriquesilvamendes076@gmail.com](henriquesilvamendes076@gmail.com)
+Se você tiver alguma dúvida, sugestão ou apenas quiser trocar uma ideia, sinta-se à vontade para entrar em contato comigo através do meu e-mail:[henriquesilvamendes076@gmail.com](henriquesilvamendes076@gmail.com).
 Espero que você goste do projeto e que seja útil para o desenvolvimento de novas habilidades em programação
 
 Divirta-se explorando os **Animais Fantásticos**! 🦁🐼🐍
