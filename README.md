@@ -1,8 +1,7 @@
 #  FANTASTIC-ANIMALS
  
 <h1 align='center'>
-    <img src='img1/brafe.png' >
-    <P font-size='12px'> Café com amor ! ☕❤️
+    <P font-size='12px'> Animais Fantásticos 🦁 </P>
 </h1>
 
 
