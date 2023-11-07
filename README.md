@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 
+=======
+#  FANTASTIC-ANIMALS
+>>>>>>> 65daeeed79e40377c9dcd033d6c4a5bf7efa15d8
  
 <h1 align='center'>
     <P font-size='12px'> Animais Fantásticos 🦁 </P>
 </h1>
 
 
+<<<<<<< HEAD
 <p align='center'><img src='Captura de tela 2023-11-07 094029.png'></p>
+=======
+<p align='center'><img src='https://github.com/HenriqueScloud/CAFETERIA-BRAFE/assets/124588969/42c32ac5-ac4b-4dce-aef6-8ff892f4223d'></p>
+>>>>>>> 65daeeed79e40377c9dcd033d6c4a5bf7efa15d8
 
 <p align='center'><button ><a href='https://henriquescloud.github.io/CAFETERIA-BRAFE/brafe1-flexbox.html' > ACESSAR </a></button></p><br><h1></h1>
 
@@ -39,3 +47,10 @@
 [![Minhas Habilidades](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 65daeeed79e40377c9dcd033d6c4a5bf7efa15d8
