@@ -12,7 +12,7 @@
 
 <p align='center'>História dos animais Fantásticos 🦁<p>
 
-<p align='center'><button ><a href='https://henriquescloud.github.io/FANTASTIC-ANIMALS/animais-fantasticos.html' > ACESSAR </a></button></p><br><h1></h1>
+<p align='center'><button ><a href='https://henriquescloud.github.io/FANTASTIC-ANIMALS/animais-fantásticos.html' > ACESSAR </a></button></p><br><h1></h1>
 
 
 ## Projeto Animais Fantásticos
