@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8" />
@@ -8,7 +8,6 @@
     <script>
         document.documentElement.className += " js";
     </script>
-    <script type="module" src="JS/script.js" defer></script>
     <script type="module" src="JS/modules/scroll-suave.js" defer></script>
     <script type="module" src="JS/modules/accordion.js" defer></script>
     <script type="module" src="JS/modules/animacao-scroll.js"></script>
@@ -232,6 +231,7 @@
                 </section>
             </div>
         </section>
+        <!-- grid-section animais-->
         <section class="grid-section faq" data-anima="scroll" data-menu="suave" id="faq">
             <h1 class="titulo">FAQ</h1>
             <dl class="faq-lista" data-anime="accordion">
@@ -296,7 +296,7 @@
                 <label for="email">E-mail</label>
                 <input type="email" for="email" id="email" />
                 <label for="senha">Senha</label>
-                <input type="password" name="senha" id="senha" />
+                <input type="password" name="senha" id="senha" autocomplete="off" />
                 <button type="submit">Entrar</button>
             </form>
         </div>
