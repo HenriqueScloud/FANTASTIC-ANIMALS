@@ -1,4 +1,4 @@
-export function navegacaoPorTab(){
+export default function navegacaoPorTab(){
     const tabMenu = document.querySelectorAll('[data-tab="menu"] li')
     const tabContent = document.querySelectorAll('[data-tab="content"] section')
     

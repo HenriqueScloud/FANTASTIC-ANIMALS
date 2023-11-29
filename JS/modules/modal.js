@@ -1,6 +1,6 @@
 'use strict'
 
-export function initModal(){}
+export default function initModal(){}
 
 
 const abrir = document.querySelector('[data-modal="abrir"]')
