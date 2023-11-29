@@ -5,7 +5,10 @@ import navegacaoPorTab from "./modules/tabNav.js";
 import initScrollSuave from "./modules/scroll-suave.js";
 import initModal from "./modules/.js";
 import initModal from "./modules/tooltips.js";
+import initDropdownMenu from "./modules/dropdownMenu.js";
 
+
+initDropdownMenu();
 initTooltips();
 initModal();
 navegacaoPorLista();
