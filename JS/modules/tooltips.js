@@ -23,7 +23,7 @@ export default function initTooltips(){
         tooltipBox:'',
         handleEvent(){
             this.tooltipBox.remove();
-            this.removeEventListener('mouseleave',onMouseLeave)
+            this.tooltipBox.removeEventListener('mouseleave',onMouseLeave)
 
         }
     }

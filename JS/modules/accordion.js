@@ -1,4 +1,4 @@
-export default function navegacaoPorLista(){
+export  function navegacaoPorLista(){
     const accordionList = document.querySelectorAll('[data-anime="accordion"] dt')
     function activeAccordion(event){ 
         this.nextElementSibling.classList.toggle('ativoFaq') 
@@ -8,9 +8,6 @@ export default function navegacaoPorLista(){
         item.addEventListener('click', activeAccordion);
 
     }) 
-}
-
-// olamundo 
-
+}navegacaoPorLista();
 
 
