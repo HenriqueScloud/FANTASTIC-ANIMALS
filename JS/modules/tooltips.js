@@ -1,4 +1,4 @@
-export default function initTooltips(){
+export function initTooltips(){
 
         
     const tooltips = document.querySelectorAll('[data-tooltip]')
@@ -44,5 +44,4 @@ export default function initTooltips(){
         return tooltipbox;
     }
 }
-initTooltips();
 
