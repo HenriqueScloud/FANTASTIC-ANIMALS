@@ -1,10 +1,8 @@
 
-export default function initModal(){
-
+export function initModal(){
         const abrir = document.querySelector('[data-modal="abrir"]')
     const fechar = document.querySelector('[data-modal="fechar"]')
     const modalContainer = document.querySelector('section.modal-container')
-
     if (abrir && fechar && modalContainer){
         function clickForaModal(event){
             if (event.target === this)
@@ -17,12 +15,8 @@ export default function initModal(){
         abrir.addEventListener('click', toggleModal)
         fechar.addEventListener('click', toggleModal)
         modalContainer.addEventListener('click', clickForaModal)
-
-
     }
-    console.log('ola ')
 }
-initModal();
 
 
 
