@@ -1,4 +1,4 @@
-export  function initAnimacaoScroll() {
+export function initAnimacaoScroll() {
     const sections = document.querySelectorAll('[data-anima="scroll"]')// pegando todos os elementos que vão ser animados pelo scroll
     if (sections.length) {
         const windowMetade = window.innerHeight * 0.7 // pegando 70% da tela do usuário 
@@ -16,4 +16,3 @@ export  function initAnimacaoScroll() {
         window.addEventListener('scroll', animaScroll) // ADD O EVENTO AO WINDOW 
     }
 }
-initAnimacaoScroll();
