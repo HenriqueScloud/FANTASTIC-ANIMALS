@@ -1,6 +1,6 @@
 
 
-export default function initScrollSuave(){
+export function initScrollSuave(){
     //criando a função do scroll
     function scrollToSection(event) {
         event.preventDefault();  // desliga a função dos links 
@@ -19,4 +19,3 @@ export default function initScrollSuave(){
         link.addEventListener("click", scrollToSection)
     })
 }
-initScrollSuave();
