@@ -4,19 +4,19 @@ import { Contatos } from "./components/Contatos/Contatos";
 import { Faq } from "./components/Faq/Faq";
 import { Footer } from "./components/Footer/Footer";
 import { Modal } from "./components/Modal/Modal";
+// import { modal } from "./components/Modal/Modal";
 function App() {
-  var IsModal = false;
+  const [showModal, setshowModal] = useState(false);
   
   return (
     <>
       <div className="grid-container">
-        <Carrossel setModal={IsModal} />
+        <Carrossel setModal={(showModal, setshowModal)} />
         <Faq />
         <Contatos />
         <Footer />
       </div>
-
-      <Modal setModal={IsModal} />
+      <Modal setModal={(showModal, setshowModal)} />
     </>
   );
 }
