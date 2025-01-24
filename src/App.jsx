@@ -4,19 +4,21 @@ import { Contatos } from "./components/Contatos/Contatos";
 import { Faq } from "./components/Faq/Faq";
 import { Footer } from "./components/Footer/Footer";
 import { Modal } from "./components/Modal/Modal";
-// import { modal } from "./components/Modal/Modal";
+
 function App() {
-  const [showModal, setshowModal] = useState(false);
-  
+  const [cardModal, setCardModal] = useState(true);
   return (
     <>
       <div className="grid-container">
-        <Carrossel setModal={(showModal, setshowModal)} />
+        <Carrossel cardModal={cardModal} setCardModal={setCardModal} />
         <Faq />
         <Contatos />
         <Footer />
       </div>
-      <Modal setModal={(showModal, setshowModal)} />
+
+      {
+        cardModal && < Modal cardModal={cardModal} setCardModal={setCardModal}/>
+      }
     </>
   );
 }
