@@ -1,23 +1,19 @@
-import { Modal } from "../Modal/Modal";
-
-export const Carrossel = ({ setIsModal, IsModal }) => {
-  console.log(IsModal);
-  
+export const Carrossel = ({ cardModal, setCardModal }) => {
   return (
     <>
-      <nav class="menu" data-menu="suave">
+      <nav className="menu" data-menu="suave">
         <ul>
           <li>
             <a href="#animais">Animais</a>
           </li>
           <li>
-            <a href="#faq" class="">
+            <a href="#faq" className="">
               Faq
             </a>
           </li>
           <li data-dropdown>
             <a href="#contatos">Contatos</a>
-            <ul class="dropdown-menu">
+            <ul className="dropdown-menu">
               <li>
                 <a
                   href="https://api.whatsapp.com/send?phone=5521969221346&text='Olá! quero encomendar meu site 💻🚀 !!'"
@@ -51,7 +47,7 @@ export const Carrossel = ({ setIsModal, IsModal }) => {
           </li>
           <li data-dropdown>
             <a href="#animais">Sobre</a>
-            <ul class="dropdown-menu">
+            <ul className="dropdown-menu">
               <li>
                 <a href="empresa.html">A Empresa </a>
               </li>
@@ -70,7 +66,7 @@ export const Carrossel = ({ setIsModal, IsModal }) => {
             <a href="https://github.com/HenriqueScloud/" target="_blan">
               Dev
             </a>
-            <ul class="dropdown-menu">
+            <ul className="dropdown-menu">
               <li>
                 <a
                   href="https://api.whatsapp.com/send?phone=5521969221346&text='Olá! quero encomendar meu site 💻🚀 !!'"
@@ -107,9 +103,7 @@ export const Carrossel = ({ setIsModal, IsModal }) => {
               href=""
               data-modal="abrir"
               onClick={() => {
-                setIsModal(true);
-                console.log(IsModal);
-                
+                setCardModal(true);
               }}
             >
               Login ➙
@@ -118,9 +112,9 @@ export const Carrossel = ({ setIsModal, IsModal }) => {
         </ul>
       </nav>
 
-      <h1 class="titulo">Animais Fantásticos </h1>
+      <h1 className="titulo">Animais Fantásticos </h1>
 
-      <ul class="animais-lista" data-tab="menu">
+      <ul className="animais-lista" data-tab="menu">
         <li>
           <img
             src="midia/urso.jpg"
@@ -171,8 +165,8 @@ export const Carrossel = ({ setIsModal, IsModal }) => {
         </li>
       </ul>
 
-      <div class="animais-descricao" data-tab="content">
-        <section class="ativo show-right" data-anime="show-right">
+      <div className="animais-descricao" data-tab="content">
+        <section className="ativo show-right" data-anime="show-right">
           <h2>Urso</h2>
           <p>
             As raposas São animais mamíferos e onívoros pertencentes à família
