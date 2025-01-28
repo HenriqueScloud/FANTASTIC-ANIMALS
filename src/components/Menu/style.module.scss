@@ -33,7 +33,6 @@
   z-index: 1;
   right: 0;
   top: 0rem;
-  // width: 30vw;
   text-align: left;
   :hover {
     p {
@@ -92,6 +91,13 @@ p {
 .menu > ul:hover a:hover {
   color: #000;
   text-decoration: underline;
+}
+
+
+@media (min-width:900px) {
+  .menu {
+    // display: none;
+  }
 }
 
 // .grid-section {
